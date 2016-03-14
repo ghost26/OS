@@ -9,5 +9,4 @@ hello_world: $(OBJECTS)
 	$(CC) $(OBJECTS) -o $@
 	
 clean:
-	rm *.o hello_world
-	
+	rm -f *.o hello_world
